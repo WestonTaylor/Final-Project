@@ -1,5 +1,31 @@
 @import url('https://fonts.googleapis.com/css2?family=Lora&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
 
-body {
+.header1 {
+    box-sizing: border-box;
     font-family: 'Lora', serif;
+    font-size: larger;
+    background-color: greenyellow;
+    padding: 25px;
+    color: black;
+    text-align: center;
+}
+
+.navbar {
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+    font-size: larger;
+    color: white;
+    background-color: blue;
+    text-align: center;
+    padding: 25px;
+}
+
+a {
+    padding-right: 25px;
+    color: white;
+}
+
+a:visited {
+    color: black;
 }
