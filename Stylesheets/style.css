@@ -39,14 +39,10 @@
     clear: both;
 }
 
-
-
-
-
-
 a {
-    padding-right: 200px;
-    padding-left: 200px;
+    display: inline-block;
+    padding-right: 150px;
+    padding-left: 150px;
     color: white;
 }
 
