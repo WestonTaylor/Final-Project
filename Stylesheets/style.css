@@ -8,10 +8,16 @@
     background-color: greenyellow;
     padding: 25px;
     color: black;
-    text-align: center;
+    text-align: left;
 }
 
+/* .image {
+    float: right;
+    padding: 0px;
+} */
+
 .navbar {
+    clear: both;
     box-sizing: border-box;
     font-family: 'Open Sans', sans-serif;
     font-size: larger;
@@ -39,10 +45,22 @@
     clear: both;
 }
 
-a {
-    display: inline-block;
+#home {
     padding-right: 150px;
     padding-left: 150px;
+}
+
+#about {
+    padding-right: 150px;
+    padding-left: 150px;
+}
+
+#contact {
+    padding-right: 150px;
+    padding-left: 150px;
+}
+
+a {
     color: white;
 }
 
