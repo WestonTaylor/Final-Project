@@ -1,20 +1,24 @@
 @import url('https://fonts.googleapis.com/css2?family=Lora&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
 
+.container {
+    display: table-cell;
+}
+
 .header {
     box-sizing: border-box;
     font-family: 'Lora', serif;
     font-size: larger;
     background-color: greenyellow;
-    padding: 25px;
     color: black;
-    text-align: left;
+    height: 100px;
+    line-height: 100px;
 }
 
-/* .image {
-    float: right;
-    padding: 0px;
-} */
+img {
+    padding-left: 209.5px;
+    vertical-align: bottom;
+}
 
 .navbar {
     clear: both;
