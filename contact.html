@@ -11,7 +11,7 @@
 <body>
     <div class="header">
         <header>
-            Compassion For Sheltered Animals (CSA)
+            Compassion For Sheltered Animals (CSA) - Exeter High School
         </header>
     </div>
     <div class="navbar">
@@ -22,14 +22,20 @@
         </nav>
     </div>
     <div class="container">
-        <form action="action_page.php">
+        <div class="formrow">
+        <div class="formcolumn">
+        <form>
             <label for="fname">First Name</label>
                 <input type="text" id="fname" name="firstname" placeholder="Your first name...">
-        
-            <label for="lname">Last Name</label>
+        <br>
+            <label for="organization">Organization</label>
+                <input type="text" id="organization" name="organization" placeholder="Your Business/Organization's name...">
+            </div>
+                <div class="formcolumn">
+                <label for="lname">Last Name</label>
                 <input type="text" id="lname" name="lastname" placeholder="Your last name...">
-
-                <label for="state">State</label>
+        <br>
+            <label for="state">State</label>
                 <select id="state" name="state">
                     <option value="" class="hiddenvalue"></option>
                     <option value="I do not live in the United States">I do not live in the United States</option>
@@ -84,76 +90,15 @@
                     <option value="WI">Wisconsin</option>
                     <option value="WY">Wyoming</option>
                 </select>
-
-            <label for="county">If you live in California, please provide your County of Residence</label>
-                <select id="county" name="county">
-                    <option value="" class="hiddenvalue"></option>
-                    <option value="I do not live in California">I do not live in California</option>
-                    <option value="alameda">Alameda</option>
-                    <option value="alpine">Alpine</option>
-                    <option value="amador">Amador</option>
-                    <option value="butte">Butte</option>
-                    <option value="calaveras">Calaveras</option>
-                    <option value="colusa">Colusa</option>
-                    <option value="contra costa">Contra Costa</option>
-                    <option value="el dorado">El Dorado</option>
-                    <option value="fresno">Fresno</option>
-                    <option value="glenn">Glenn</option>
-                    <option value="humboldt">Humboldt</option>
-                    <option value="imperial">Imperial</option>
-                    <option value="inyo">Inyo</option>
-                    <option value="kern">Kern</option>
-                    <option value="kings">Kings</option>
-                    <option value="lake">Lake</option>
-                    <option value="lassen">Lassen</option>
-                    <option value="los angeles">Los Angeles</option>
-                    <option value="madera">Madera</option>
-                    <option value="marin">Marin</option>
-                    <option value="mariposa">Mariposa</option>
-                    <option value="mendocino">Mendocino</option>
-                    <option value="merced">Merced</option>
-                    <option value="modoc">Modoc</option>
-                    <option value="mono">Mono</option>
-                    <option value="monterey">Monterey</option>
-                    <option value="napa">Napa</option>
-                    <option value="nevada">Nevada</option>
-                    <option value="orange">Orange</option>
-                    <option value="placer">Placer</option>
-                    <option value="plumas">Plumas</option>
-                    <option value="riverside">Riverside</option>
-                    <option value="sacramento">Sacramento</option>
-                    <option value="san benito">San Benito</option>
-                    <option value="san bernadino">San Bernadino</option>
-                    <option value="san diego">San Diego</option>
-                    <option value="san francisco">San Francisco</option>
-                    <option value="san joaquin">San Joaquin</option>
-                    <option value="san luis obispo">San Luis Obispo</option>
-                    <option value="san mateo">San Mateo</option>
-                    <option value="santa barbara">Santa Barbara</option>
-                    <option value="santa clara">Santa Clara</option>
-                    <option value="santa cruz">Santa Cruz</option>
-                    <option value="shasta">Shasta</option>
-                    <option value="sierra">Sierra</option>
-                    <option value="siskiyou">Siskiyou</option>
-                    <option value="solano">Solano</option>
-                    <option value="sonoma">Sonoma</option>
-                    <option value="stanislaus">Stanislaus</option>
-                    <option value="sutter">Sutter</option>
-                    <option value="tehama">Tehama</option>
-                    <option value="trinity">Trinity</option>
-                    <option value="tulare">Tulare</option>
-                    <option value="tuolumne">Tuolumne</option>
-                    <option value="ventura">Ventura</option>
-                    <option value="yolo">Yolo</option>
-                    <option value="yuba">Yuba</option>
-                </select>
-        
+            </div>
+            </div>
+        </div>
+                <br>
             <label for="subject">Subject</label>
-            
+        <br>
             <textarea id="subject" name="subject" placeholder="Write something..." style="height:200px"></textarea>
-        
+        <br>
             <input type="submit" value="Submit">
-
         </form>
     </div>
     <div class="row">
@@ -208,9 +153,27 @@
             </section>
         </div>
     </div>
+    <!-- <div class="footer">
+        <footer>
+            <div class="footcolumn">
+            copy and credit, tos
+        </div>
+        <div class="footcolumn">
+            <li><a href="./home.html" id="home">Home</a></li>
+            <li><a href="./about.html" id="about">About</a></li>
+            <li><a href="./contact.html" id="contact">Contact</a></li>
+        </div>
+        <div class="footcolumn">
+            socials
+        </div>
+        </footer>
+    </div> -->
     <div class="footer">
         <footer>
-            This is the test footer.
+            <p>&copy; Weston Taylor</p>
+            <a href="#" class="fa fa-facebook"></a>
+            <a href="#" class="fa fa-twitter"></a>
+            <a href="#" class="fa fa-instagram"></a>
         </footer>
     </div>
 </body>

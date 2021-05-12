@@ -33,3 +33,15 @@ input[type=text], select, textarea {
     background-color: #f2f2f2;
     padding: 20px;
   }
+
+  .formcolumn {
+    width: 40%;
+    float: left;
+    padding: 10px;
+}
+
+.formrow::after {
+    content: "";
+    display: table;
+    clear: both;
+}
