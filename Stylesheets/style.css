@@ -12,8 +12,9 @@
 }
 
 img {
-    padding-left: 209.5px;
+    padding-left: 170px;
     vertical-align: bottom;
+    border: solid greenyellow 2px;
 }
 
 .navbar {
