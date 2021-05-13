@@ -1,2 +1,16 @@
 @import url(./style.css);
 
+.column2 {
+    width: 33.18%;
+    float: left;
+    background-color: yellow;
+    border: solid black 1px;
+    border-bottom: 0px;
+    height: 240px;
+    text-align: center;
+}
+
+#invisible-section {
+    border-top: 0px;
+    border-bottom: 0px;
+}
