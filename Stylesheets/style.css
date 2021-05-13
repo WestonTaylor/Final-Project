@@ -1,42 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Lora&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
 
-#header-social {
-    font-family: 'Lora', serif;
-}
-
-h {
-    font-family: 'Lora', serif;
-}
-
-p {
-    font-family: 'open sans', sans-serif;
-}
-
-text {
-    font-family: 'open sans', sans-serif;
-}
-
-a {
-    font-family: 'Lora', serif;
-}
-
-img {
-    padding-top: 20px;
-}
-
-#headerpiclink:hover {
-    background-color: inherit;
-}
-
-#euhs-pic {
-    padding-top: 2px;
-}
-
-#euhs-link:hover {
-    background-color: yellow;
-}
-
 .header {
     box-sizing: border-box;
     font-family: 'Lora', serif;
@@ -57,6 +21,10 @@ img {
     height: 96px;
   }
 
+  #headerpiclink:hover {
+    background-color: inherit;
+}
+
 .navbar {
     border: solid mediumblue 2px;
     background-color: yellow;
@@ -72,6 +40,16 @@ img {
     text-align: center;
 }
 
+#header-social {
+    font-family: 'Lora', serif;
+}
+
+.row::after {
+    content: " ";
+    display: table;
+    clear: both;
+}
+
 .column {
     width: 33.18%;
     float: left;
@@ -82,25 +60,44 @@ img {
     vertical-align: middle;
 }
 
-.two-columns {
-    width: 49.8%;
-    float: left;
+.section {
+    height: 100px;
+    padding-bottom: 20px;
+    border-top: solid mediumblue 1px;
+}
+
+.footer {
+    box-sizing: border-box;
+    font-family: 'Lora', serif;
+    font-size: larger;
     background-color: yellow;
-    border: solid mediumblue 1px;
-    height: 180px;
-    text-align: center;
-    align-content: center;
-}
-
-#two-columns-text {
-    padding-top: 50px;
     height: 130px;
+    text-align: center;
+    border: solid mediumblue 2px;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 
-.row::after {
-    content: " ";
-    display: table;
-    clear: both;
+.footercolumn {
+    width: 33.18%;
+    float: left;
+    text-align: center;
+    vertical-align: middle;
+    font-size: medium;
+    border-right: solid mediumblue 2px;
+}
+
+#footer-credit {
+    border-right: solid mediumblue 2px;
+}
+
+#footer-menu {
+    padding-right: 2px;
+    border-right: solid mediumblue 2px;
+}
+
+#footer-social {
+    border-right: 0px;
 }
 
 #home {
@@ -119,7 +116,8 @@ img {
 }
 
 a {
-    color: mediumblue
+    color: mediumblue;
+    font-family: 'Lora', serif;
 }
 
 a:visited {
@@ -129,25 +127,6 @@ a:visited {
 
 a:hover {
     background-color: white;
-}
-
-
-.footer {
-    box-sizing: border-box;
-    font-family: 'Lora', serif;
-    font-size: larger;
-    background-color: yellow;
-    height: 130px;
-    text-align: center;
-    border: solid mediumblue 2px;
-    padding-top: 10px;
-    padding-bottom: 10px;
-}
-
-.section {
-    height: 100px;
-    padding-bottom: 20px;
-    border-top: solid mediumblue 1px;
 }
 
 .fa {
@@ -180,34 +159,19 @@ a:hover {
     background : #D046AE;
   }
 
-.footercolumn {
-    width: 33.18%;
-    float: left;
-    text-align: center;
-    vertical-align: middle;
-    font-size: medium;
-}
-
-#footer-menu {
-    padding-right: 2px;
-}
-
-#footer-social {
-    border-right: 0px;
+  img {
+    padding-top: 20px;
 }
 
 h {
+    font-family: 'Lora', serif;
     text-decoration: underline;
 }
 
-#footer-credit {
-    border-right: solid mediumblue 2px;
+p {
+    font-family: 'open sans', sans-serif;
 }
 
-#footer-menu {
-    border-right: solid mediumblue 2px;
-}
-
-.footercolumn {
-    border-right: solid mediumblue 2px;
+text {
+    font-family: 'open sans', sans-serif;
 }

@@ -1,5 +1,28 @@
 @import url(./style.css);
 
+#euhs-pic {
+    padding-top: 2px;
+}
+
+#euhs-link:hover {
+    background-color: yellow;
+}
+
+.two-columns {
+    width: 49.8%;
+    float: left;
+    background-color: yellow;
+    border: solid mediumblue 1px;
+    height: 180px;
+    text-align: center;
+    align-content: center;
+}
+
+#two-columns-text {
+    padding-top: 50px;
+    height: 130px;
+}
+
 p {
     font-size: 11pt;
 }
