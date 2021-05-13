@@ -12,11 +12,11 @@
     width: 100%;
 }
 
-img {
+#headerpic {
     padding-left: 170px;
     vertical-align: bottom;
     border: solid greenyellow 2px;
-}
+  }
 
 .navbar {
     clear: both;
