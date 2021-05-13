@@ -5,10 +5,6 @@ img {
     padding-top: 20px;
 }
 
-.container {
-    padding: 5px;
-}
-
 #headerpiclink:hover {
     background-color: inherit;
 }
@@ -55,6 +51,17 @@ img {
     border: solid mediumblue 1px;
     height: 240px;
     text-align: center;
+    vertical-align: middle;
+}
+
+.twocolumns {
+    width: 49.8%;
+    float: left;
+    background-color: yellow;
+    border: solid mediumblue 1px;
+    height: 240px;
+    text-align: center;
+    vertical-align: middle;
 }
 
 .row::after {
@@ -104,9 +111,8 @@ a:hover {
 
 .section {
     height: 100px;
-    border: solid black 1px;
-    border-bottom: none;
     padding-bottom: 20px;
+    border-top: solid mediumblue 1px;
 }
 
 .fa {
