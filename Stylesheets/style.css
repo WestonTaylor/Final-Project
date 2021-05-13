@@ -94,10 +94,12 @@ a:hover {
     box-sizing: border-box;
     font-family: 'Lora', serif;
     font-size: larger;
-    background-color: greenyellow;
-    height: 100px;
-    padding-bottom: 5px;
+    background-color: yellow;
+    height: 150px;
     text-align: center;
+    border: solid mediumblue 2px;
+    text-align: center;
+    vertical-align: middle;
 }
 
 .section {
@@ -138,7 +140,6 @@ a:hover {
 
 .footercolumn {
     width: 30%;
-    background-color: pink;
     float: left;
     text-align: center;
     font-size: medium;
