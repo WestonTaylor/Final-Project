@@ -30,7 +30,7 @@
 
 .navbar {
     border: solid mediumblue 2px;
-    background-color: gold;
+    background-color: yellow;
     clear: both;
     box-sizing: border-box;
     font-family: 'Open Sans', sans-serif;
@@ -40,6 +40,7 @@
     top: 0%;
     position: sticky;
     width: 100%;
+    text-align: center;
 }
 
 .column {
@@ -58,18 +59,18 @@
 }
 
 #home {
-    padding-right: 100px;
-    padding-left: 100px;
+    padding-right: 50px;
+    padding-left: 50px;
 }
 
 #about {
-    padding-right: 100px;
-    padding-left: 100px;
+    padding-right: 50px;
+    padding-left: 50px;
 }
 
 #contact {
-    padding-right: 100px;
-    padding-left: 100px;
+    padding-right: 50px;
+    padding-left: 50px;
 }
 
 a {
