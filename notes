@@ -1,0 +1,113 @@
+still need image that is a link
+
+hero image
+
+audio/video embed
+
+2 google fonts
+
+two media elements
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="./Stylesheets/home.css">
+    <title>Home - Bitwise Final</title>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <header>Compassion For Sheltered Animals (CSA) - Exeter High School
+            <img src="./Images/header-cute-dogs.jpg" id="headerpic">
+            </header>
+        </div>
+    </div>
+    <div class="navbar">
+        <nav>
+            <a href="./home.html" id="home">Home</a>
+            <a href="./about.html" id="about">About</a>
+            <a href="./contact.html" id="contact">Contact</a>
+        </nav>
+    </div>
+    <div class="row">
+        <div class="column">
+            <section class="section">
+                <h>Personal Help</h>
+                <p>If you would like to volunteer your time, volunteer to foster an animal, or donate supplies such as food or transportation, please contact me through the details below.</p>
+            </section>
+            <section class="section">
+                
+            </section>
+        </div>
+        <div class="column">
+            <section class="section">
+                <h>Hello and welcome to CSA.</h>
+                <p>Within CSA we strive to connect animals in desperate need of a home with families that have love to spare. We are able to accomplish this through the great work volunteered by high school students and members of the community. Any and all help is welcome, and if you would like to contribute to our search for happiness please refer to the most appropriate contact method on etiehr side of this message.</p>
+            </section>
+            <section class="section">
+                
+            </section>
+        </div>
+        <div class="column">
+            <section class="section">
+                <h>Business Help</h>
+                <p>If you are a shelter/rescue and would like to partner with our group, please contact me through the details below. If you would like to volunteer a space for an adoption event, or would like to support CSA financially, please contact me through the detailes below as well.</p>
+            </section>
+            <section class="section">
+                <img src="./Images/home-right.jpg" height="200" width="200">
+            </section>
+        </div>
+    </div>
+    <div class="row">
+        <div class="column">
+            <section class="section">
+                <p>From the smallest chihuahua to the biggest great dane, we strive to provide every animal we come across the best opprotunity of finding a place to call home.</p>
+            </section>
+            <section class="section">
+                <img src="./Images/home-left.jpg" height="200" width="200">
+            </section>
+        </div>
+        <div class="column">
+            <section class="section">
+                <img src="./Images/home-top-center.jpg" height="200" width="200">
+            </section>
+            <section class="section">
+                <p>No matter what kind of animal they are, we want to connect the right people with an animal they can love unconditionally. At the end of the day, what makes our club the proudest is when we join people with love to spare to animals that are desperately in need of it.</p>
+            </section>
+        </div>
+        <div class="column">
+            <section class="section">
+                <p>While our club is well known for helping dogs find a home, our work does not stop there. There are also plenty of cats, birds, and other animals whcih are in just as much need for a nurturing environment. If you are unable to take care of a dog, do not be afraid to call you local shelter to see what other potential companions they may have.</p>
+            </section>
+            <section class="section">
+                <img src="./Images/home-cat.jpg" height="200" width="200">
+            </section>
+        </div>
+    </div>
+    <div class="footer">
+        <footer>
+            <div class="footercolumn">
+                <h>Credit to:</h>
+            <p>&copy; Weston Taylor</p>
+        </div>
+        <div class="footercolumn">
+            <h>Menu</h>
+            <a href="./home.html" id="home">Home</a>
+            <a href="./about.html" id="about">About</a>
+            <a href="./contact.html" id="contact">Contact</a>
+        </div>
+        <div class="footercolumn">
+            <h>Connect With Us</h>
+            <a href="#" class="fa fa-facebook"></a>
+            <a href="#" class="fa fa-twitter"></a>
+            <a href="#" class="fa fa-instagram"></a>
+        </div>
+        </footer>
+    </div>
+</body>
+</html>
