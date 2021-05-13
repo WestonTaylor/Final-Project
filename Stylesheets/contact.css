@@ -78,3 +78,7 @@ iframe {
   border: solid mediumblue 1px;
   background-color: yellow;
 }
+
+p {
+  font-size: 10pt;
+}

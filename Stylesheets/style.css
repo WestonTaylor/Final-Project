@@ -1,6 +1,26 @@
 @import url('https://fonts.googleapis.com/css2?family=Lora&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
 
+#header-social {
+    font-family: 'Lora', serif;
+}
+
+h {
+    font-family: 'Lora', serif;
+}
+
+p {
+    font-family: 'open sans', sans-serif;
+}
+
+text {
+    font-family: 'open sans', sans-serif;
+}
+
+a {
+    font-family: 'Lora', serif;
+}
+
 img {
     padding-top: 20px;
 }
