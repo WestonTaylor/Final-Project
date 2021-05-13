@@ -9,6 +9,14 @@ img {
     background-color: inherit;
 }
 
+#euhs-pic {
+    padding-top: 2px;
+}
+
+#euhs-link:hover {
+    background-color: yellow;
+}
+
 .header {
     box-sizing: border-box;
     font-family: 'Lora', serif;
@@ -54,14 +62,19 @@ img {
     vertical-align: middle;
 }
 
-.twocolumns {
+.two-columns {
     width: 49.8%;
     float: left;
     background-color: yellow;
     border: solid mediumblue 1px;
-    height: 240px;
+    height: 180px;
     text-align: center;
-    vertical-align: middle;
+    align-content: center;
+}
+
+#two-columns-text {
+    padding-top: 50px;
+    height: 130px;
 }
 
 .row::after {
@@ -86,16 +99,18 @@ img {
 }
 
 a {
-    color: white;
+    color: mediumblue
 }
 
 a:visited {
     color: black;
+    text-underline-position: below 0px;
 }
 
 a:hover {
     background-color: white;
 }
+
 
 .footer {
     box-sizing: border-box;
@@ -121,6 +136,7 @@ a:hover {
     width: 30px;
     text-align: center;
     text-decoration: none;
+    color: white;
   }
   
   /* Add a hover effect if you want */
