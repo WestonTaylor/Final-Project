@@ -1,12 +1,10 @@
 @import url(./style.css);
 
-
-
 /* Style inputs with type="text", select elements and textareas */
 input[type=text], select, textarea {
     width: 100%; /* Full width */
     padding: 12px; /* Some padding */ 
-    border: 1px solid #ccc; /* Gray border */
+    border: 2px solid mediumblue; /* Gray border */
     border-radius: 4px; /* Rounded borders */
     box-sizing: border-box; /* Make sure that padding and width stays in place */
     margin-top: 6px; /* Add a top margin */
@@ -16,7 +14,7 @@ input[type=text], select, textarea {
   
   /* Style the submit button with a specific background color etc */
   input[type=submit] {
-    background-color: #04AA6D;
+    background-color: mediumblue;
     color: white;
     padding: 12px 20px;
     border: none;
@@ -26,12 +24,12 @@ input[type=text], select, textarea {
   
   /* When moving the mouse over the submit button, add a darker green color */
   input[type=submit]:hover {
-    background-color: #45a049;
+    background-color: navy;
   }
   
   /* Add a background color and some padding around the form */
   .container {
-    background-color: #f2f2f2;
+    background-color: yellow;
   }
 
   .formcolumn {
@@ -54,18 +52,28 @@ input[type=text], select, textarea {
   height: 200px;
 }
 
+
 img {
-  padding-left: 0%;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  align-items: center;
+  vertical-align: middle;
 }
 
-#tractor-supply {
-  padding-left: 0px;
+iframe {
+  text-align: center;
+  vertical-align: middle;
+  padding-top: 10px;
+  padding-bottom: 10px;
   height: 200px;
   width: 400px;
 }
 
-#pas {
-  padding-left: 0px;
-  height: 200px;
-  width: 400px;
+#pas-embed {
+  height: 155px;
+}
+
+
+.formcontainer {
+  border: solid mediumblue 1px;
 }
