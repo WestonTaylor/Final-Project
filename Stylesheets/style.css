@@ -95,11 +95,11 @@ a:hover {
     font-family: 'Lora', serif;
     font-size: larger;
     background-color: yellow;
-    height: 150px;
+    height: 130px;
     text-align: center;
     border: solid mediumblue 2px;
-    text-align: center;
-    vertical-align: middle;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 
 .section {
@@ -139,13 +139,33 @@ a:hover {
   }
 
 .footercolumn {
-    width: 30%;
+    width: 33.18%;
     float: left;
     text-align: center;
+    vertical-align: middle;
     font-size: medium;
+}
+
+#footer-menu {
+    padding-right: 2px;
+}
+
+#footer-social {
+    border-right: 0px;
 }
 
 h {
     text-decoration: underline;
 }
 
+#footer-credit {
+    border-right: solid mediumblue 2px;
+}
+
+#footer-menu {
+    border-right: solid mediumblue 2px;
+}
+
+.footercolumn {
+    border-right: solid mediumblue 2px;
+}
