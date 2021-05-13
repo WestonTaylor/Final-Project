@@ -1,21 +1,27 @@
 @import url('https://fonts.googleapis.com/css2?family=Lora&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
 
+.container {
+    padding: 5px;
+}
+
 .header {
     box-sizing: border-box;
     font-family: 'Lora', serif;
     font-size: larger;
-    background-color: greenyellow;
+    background-color: gold;
     color: black;
     height: 100px;
     line-height: 100px;
     width: 100%;
+    border: solid mediumblue 2px;
 }
 
 #headerpic {
-    padding-left: 170px;
+    padding-left: 183px;
+    padding-bottom: 5px;
     vertical-align: bottom;
-    border: solid greenyellow 2px;
+    height: 96px;
   }
 
 .navbar {
