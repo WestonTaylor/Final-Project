@@ -79,8 +79,8 @@ a:hover {
     font-family: 'Lora', serif;
     font-size: larger;
     background-color: greenyellow;
-    padding: 25px;
-    color: black;
+    height: 100px;
+    padding-bottom: 5px;
     text-align: center;
 }
 
@@ -123,16 +123,9 @@ a:hover {
       color: white;
   }
 
-  /* .footcolumn {
-    width: 33%;
+.footercolumn {
+    width: 30%;
+    background-color: pink;
     float: left;
-    background-color: gray;
-    border: solid black 1px;
-    height: 100px;
-    text-align: center;
-    font-size: small;
-    border: solid indigo 1px;
-  } */
-
-
+}
 

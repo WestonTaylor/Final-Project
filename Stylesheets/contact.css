@@ -43,3 +43,32 @@ input[type=text], select, textarea {
     display: table;
     clear: both;
 }
+
+.column {
+  height: 400px;
+}
+
+.section {
+  height: 200px;
+}
+
+img {
+  padding-left: 0%;
+}
+
+#tractor-supply {
+  padding-left: 0px;
+  height: 200px;
+  width: 400px;
+}
+
+#pas {
+  padding-left: 0px;
+  height: 200px;
+  width: 400px;
+}
+#headerpic {
+  padding-left: 170px;
+  vertical-align: bottom;
+  border: solid greenyellow 2px;
+}
