@@ -9,18 +9,18 @@
 }
 
 .two-columns {
+    height: 180px;
     width: 49.8%;
     float: left;
-    background-color: yellow;
-    border: solid mediumblue 1px;
-    height: 180px;
     text-align: center;
     align-content: center;
+    background-color: yellow;
+    border: solid mediumblue 1px;
 }
 
 #two-columns-text {
-    padding-top: 50px;
     height: 130px;
+    padding-top: 50px;
 }
 
 p {
